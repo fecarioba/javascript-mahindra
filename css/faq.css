@@ -60,7 +60,7 @@ section{
 
 .faq.active .answer{
     max-height: 300px;
-    transform: fade 1s ease-in-out;
+    animation: fade 1s ease-in-out;
 }
 
 @keyframes fade {
