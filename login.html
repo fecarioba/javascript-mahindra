@@ -1,103 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="/css/login.css">
     <title>Login</title>
 </head>
-
 <body>
     <div class="container">
-        <div class="cadastro-login">
-            <form action="" class="login">
+        <div class="signin-signup">
+            <form action="" class="sign-in-form">
                 <h2 class="title">Login</h2>
                 <div class="input-field">
-                    <i class="fa fa-user"></i>
-                    <input type="text" placeholder="Nome de Usuário">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Username">
                 </div>
                 <div class="input-field">
-                    <i class="fa fa-lock"></i>
-                    <input type="password" placeholder="Senha">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password">
                 </div>
-                <input type="submit" value="Login" class="btn-login">
+                <input type="submit" value="Login" class="btn">
                 <p class="social-text">Ou</p>
-                <div class="redes-sociais">
+                <div class="social-media">
                     <a href="#" class="social-icon">
-                        <i class="fa fa-facebook"></i>
+                        <i class="fab fa-facebook"></i>
                     </a>
-
                     <a href="" class="social-icon">
-                        <i class="fa fa-twitter"></i>
+                        <i class="fab fa-twitter"></i>
                     </a>
-
                     <a href="" class="social-icon">
-                        <i class="fa fa-google"></i>
+                        <i class="fab fa-google"></i>
                     </a>
-
                     <a href="" class="social-icon">
-                        <i class="fa fa-linkedin"></i>
+                        <i class="fab fa-linkedin-in"></i>
                     </a>
-
                 </div>
+                <p class="account-text">Não possui conta? <a href="#" id="sign-up-btn2">Cadastre-se</a></p>
             </form>
-            <form action="" class="cadastro">
+            <form action="" class="sign-up-form">
                 <h2 class="title">Cadastro</h2>
                 <div class="input-field">
-                    <i class="fa fa-user"></i>
-                    <input type="text" placeholder="Nome de Usuário">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Username">
                 </div>
                 <div class="input-field">
-                    <i class="fa fa-envelope"></i>
+                    <i class="fas fa-envelope"></i>
                     <input type="text" placeholder="Email">
                 </div>
                 <div class="input-field">
-                    <i class="fa fa-lock"></i>
-                    <input type="password" placeholder="Senha">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password">
                 </div>
-                <input type="submit" value="Cadastre-se" class="btn-login">
+                <input type="submit" value="Sign up" class="btn">
                 <p class="social-text">Ou</p>
-                <div class="redes-sociais">
+                <div class="social-media">
                     <a href="#" class="social-icon">
-                        <i class="fa fa-facebook"></i>
+                        <i class="fab fa-facebook"></i>
                     </a>
-
                     <a href="" class="social-icon">
-                        <i class="fa fa-twitter"></i>
+                        <i class="fab fa-twitter"></i>
                     </a>
-
                     <a href="" class="social-icon">
-                        <i class="fa fa-google"></i>
+                        <i class="fab fa-google"></i>
                     </a>
-
                     <a href="" class="social-icon">
-                        <i class="fa fa-linkedin"></i>
+                        <i class="fab fa-linkedin-in"></i>
                     </a>
                 </div>
+                <p class="account-text">Já possui uma conta? <a href="#" id="sign-in-btn2">Login</a></p>
             </form>
         </div>
-        <div class="painel-container">
-            <div class="painel esquerda-painel">
+        <div class="panels-container">
+            <div class="panel left-panel">
                 <div class="content">
-                    <h3>Já possui login?</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto velit aut eveniet libero
-                    possimus iste.</p>
-                    <div class="button btn-login">Login</div>
+                    <h3>Já possui uma conta?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium dolor, eos incidunt minima iure?</p>
+                    <button class="btn" id="sign-in-btn">Login</button>
                 </div>
-                <img src="./img/login.svg" alt="" class="imagem">
+                <img src="/img/login.svg" alt="" class="image">
             </div>
-            <div class="painel direita-painel">
+            <div class="panel right-panel">
                 <div class="content">
-                    <h3>Ainda não possui cadastro?</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto velit aut eveniet libero
-                    possimus iste.</p>
-                    <div class="button btn-login">Cadastre-se</div>
+                    <h3>Ainda não possui uma conta?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium dolor, eos incidunt minima iure?</p>
+                    <button class="btn" id="sign-up-btn">Cadastre-se</button>
                 </div>
-                <img src="./img/cadastro.svg" alt="" class="imagem">
+                <img src="/img/cadastro.svg" alt="" class="image">
+            </div>
         </div>
     </div>
+    <script src="/js/login.js"></script>
 </body>
-
 </html>
