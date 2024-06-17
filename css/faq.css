@@ -11,6 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #1c1c1c;
+    flex-direction: column;
 }
 
 #container {
@@ -34,7 +35,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     padding: 12px;
 }
@@ -44,12 +45,12 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: #fff;
+    color: #222;
 }
 
 .accordion-body {
-    color: #fff;
-    font-size: 14px;
+    color: #222;
+    font-size: 20px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out, padding 0.3s ease-out;
@@ -63,7 +64,7 @@ body {
 
 .arrow {
     transition: transform .2s linear;
-    color: #fff;
+    color: #222;
 }
 
 .arrow.rotate {
@@ -74,9 +75,12 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between ;
+    margin: 0 auto;
 }
 
 h1{
-    color: #fff;
-    font-size: 30px;
+    margin: 2rem 0rem;
+    color: #222;
+    font-size: 3rem;
 }
