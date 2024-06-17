@@ -10,15 +10,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1c1c1c;
     flex-direction: column;
+}
+
+header{
+    background-color: #eaeaea;
 }
 
 #container {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 500px;
+    width: 800PX;
 }
 
 .accordion {
